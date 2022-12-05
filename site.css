@@ -1,0 +1,344 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* font */
+body{
+    font-family: sans-serif;
+}
+
+/* menu styling */
+.head-bar {
+    line-height: 25px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.menu {
+    background: white;
+    text-align: center;
+}
+
+.menu ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-between 50px;
+    list-style: none;
+}
+
+.menu ul li {
+    width: 120px;
+    margin: 15px;
+    padding: 15px;
+}
+
+.menu ul a {
+    text-decoration: none;
+    color: black;
+}
+
+.menu ul li:hover{
+    background-color: #5ec79d;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.menu ul li:focus{
+    background-color: #5ec79d;
+    border-radius: 10px;
+}
+
+.menu ul li:hover .project-menu ul{
+    cursor: pointer;
+    display: block;
+}
+
+/* home page top section styling */
+.top-home{
+    padding-top: 100px;
+    padding-bottom: 70px;
+    background-image: url("images/top-bg.jpg");
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+
+#top-greeting {
+    padding-top: 30px;
+    text-align: center;
+}
+
+.top-bio {
+    padding-top: 40px;
+    width: 600px;
+    text-align: center;
+    margin: auto;
+    font-weight: bold;
+}
+
+.top-bio p{
+    padding-bottom: 40px;
+}
+
+.top-bio button {
+    border: 1pt solid black;
+    border-radius: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    background-color: white;
+    font-size: medium;
+}
+
+.top-bio button a{
+    color: black;
+    text-decoration: none;
+}
+
+.top-bio button:hover{
+    cursor: pointer;
+    background-color: #5ec79d;
+}
+
+/* home page project section styling */
+
+.home-projects{
+    padding-top: 100px;
+    display: flex;
+    justify-content: row;
+    justify-content: space-evenly;
+    text-align: center;
+    padding-bottom: 100px;
+}
+
+.home-projects img{
+    display: block;
+    max-width: 400px;
+    max-height: 400px;
+    width: auto;
+    height: auto;
+    border: 1pt solid black;
+}
+
+#data-viz{
+    max-width: 450px;
+    max-height: 450px;
+    width: auto;
+    height: auto;
+}
+
+.home-projects h2{
+    padding: 20px
+}
+
+.home-projects button{
+    border: 1pt solid black;
+    border-radius: 10px;
+    padding: 15px;
+    background-color: white;
+    font-size: medium;
+}
+
+.home-projects button a{
+    color: black;
+    text-decoration: none;
+}
+
+.home-projects button:hover{
+    cursor: pointer;
+    background-color: #5ec79d;
+}
+
+/* home page footer styling */
+
+.contact-footer {
+    background-image: url(images/top-bg.jpg);
+    display: flex;
+    justify-content: center;
+    padding: 75px;
+}
+
+/* non-home page footer styling */
+
+#nh-contact-footer{
+    background-image: none;
+    background-color: white;
+    padding: 25px;
+}
+
+/* footer button */
+.contact-footer button{
+    border: 1pt solid black;
+    border-radius: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    background-color: white;
+    font-size: medium;
+}
+
+.contact-footer button:hover{
+    cursor: pointer;
+    background-color: #5ec79d;
+}
+
+.contact-footer button a{
+    color: black;
+    text-decoration: none;
+}
+
+/* bio page styling */
+
+.pic-and-bio {
+    display: flex;
+    justify-content: row;
+    justify-content: space-evenly;
+    background-image: url(images/top-bg.jpg);
+}
+
+.bio {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 600px;
+    text-align: left;
+}
+
+.bio p{
+    text-indent: 45px;
+    font-size: larger;
+}
+
+#p2{
+    padding-top: 20px;
+}
+
+#bio-pic {
+    max-width: 700px;
+    max-height: 500px;
+    width: auto;
+    justify-self: left;
+}
+
+/* project page styling */
+.project-body{   
+    background-image: url("images/top-bg.jpg");
+}
+
+.project-one {
+    display: flex;
+    justify-content: row;
+    justify-content: space-evenly;
+    padding-top: 125px;
+    padding-bottom: 100px;
+}
+
+#project-one-description{
+    padding-top: 30px;
+    text-align: left;
+    line-height: 25px;
+    font-size: large;
+    margin-left: 19px;
+}
+
+#guidelines, #my-role{
+    margin-left: 45px;
+}
+
+.project-image{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.project-image img{
+    max-width: 500px;
+    max-height: 500px;
+    width: auto;
+    border: 1pt solid black;
+    margin-bottom: 30px;
+}
+
+/* this was for the project page buttons they annoyed me a lot and I'm leaving this id name as revenge */
+
+#please-work{
+    background-color: white;
+    border: 1pt solid black;
+    border-radius: 10px;
+    padding: 20px 50px 20px 50px;
+    font-size: medium;
+}
+
+
+#please-work:hover{
+    background-color: #5ec79d;
+    cursor: pointer;
+}
+
+.project-two{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-top: 60px;
+    padding-bottom: 100px;
+}
+
+/* contact page styling */
+.contact-page{
+    display:flex;
+    flex-direction: column;
+    background-image: url("images/top-bg.jpg");
+    padding-top: 150px;
+    padding-bottom: 150px
+}
+
+.contact-page-header{
+    align-self: center;
+    padding-bottom: 100px;
+}
+
+.contact-page-buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.contact-page-buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.contact-page-buttons button{
+    background-color: white;
+    border: 1pt solid black;
+    border-radius: 10px;
+    padding: 20px 50px 20px 50px;
+    font-size: medium;
+}
+
+.contact-page-buttons button:hover{
+    background-color: #5ec79d;
+    cursor: pointer;
+}
+
+#contact-page-footer{
+    background-image: none;
+}
+
+/* screen reader only text hiding */
+.sr-only {
+    position: absolute;
+    left: -10000px;
+    top: auto;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    }
